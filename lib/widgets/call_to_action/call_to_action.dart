@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:alderautomationsdotcom/globals.dart';
+
+import '../../globals.dart';
 
 class CallToAction extends StatelessWidget {
   final String title_one;

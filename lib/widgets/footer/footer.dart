@@ -1,6 +1,6 @@
-import 'package:alderautomationsdotcom/globals.dart';
-import 'package:alderautomationsdotcom/widgets/centerted_view/centerted_view.dart';
 import 'package:flutter/material.dart';
+
+import '../../globals.dart';
 
 class Footer extends StatelessWidget {
   const Footer({Key? key}) : super(key: key);

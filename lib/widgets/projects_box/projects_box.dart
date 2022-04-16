@@ -1,4 +1,4 @@
-import 'package:alderautomationsdotcom/globals.dart';
+import '../../../globals.dart';
 import 'package:flutter/material.dart';
 
 class ProjectsInfoBox extends StatelessWidget {

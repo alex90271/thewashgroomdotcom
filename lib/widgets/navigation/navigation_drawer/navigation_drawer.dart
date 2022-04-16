@@ -1,6 +1,7 @@
-import 'package:alderautomationsdotcom/globals.dart';
-import 'package:alderautomationsdotcom/widgets/navigation/navigation_drawer/nav_drawer_item.dart';
+import '../../../globals.dart';
 import 'package:flutter/material.dart';
+
+import 'nav_drawer_item.dart';
 
 class NavigationDrawer extends StatelessWidget {
   final PageController pgcntrl;

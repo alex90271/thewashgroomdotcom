@@ -1,7 +1,7 @@
-import 'package:alderautomationsdotcom/globals.dart';
-import 'package:alderautomationsdotcom/widgets/centerted_view/centerted_view.dart';
+import '../../../globals.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
+import '../centerted_view/centerted_view.dart';
 import 'navigation_bar/navigation_bar.dart';
 
 class NaviBar extends StatelessWidget {

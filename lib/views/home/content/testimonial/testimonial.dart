@@ -1,7 +1,5 @@
-import 'package:flutter/gestures.dart';
-
-import '/widgets/testimonial_box/testimonial_box.dart';
 import 'package:flutter/material.dart';
+import '../../../../widgets/testimonial_box/testimonial_box.dart';
 import '/widgets/centerted_view/centerted_view.dart';
 
 class TestimonialView extends StatefulWidget {

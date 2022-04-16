@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'nav_bar_item.dart';
-import 'package:alderautomationsdotcom/globals.dart';
+import '../../../globals.dart';
 
 class NavigationBarTabletDesktop extends StatelessWidget {
   final PageController pgctrl;

@@ -1,11 +1,10 @@
 import 'dart:developer';
-import 'package:alderautomationsdotcom/widgets/footer/footer.dart';
-import 'package:alderautomationsdotcom/widgets/navigation/navigation_drawer/navigation_drawer.dart';
 import 'package:flutter/material.dart';
+import '../../widgets/footer/footer.dart';
+import '../../widgets/navigation/navigation_drawer/navigation_drawer.dart';
+import 'contact/contact.dart';
 import 'content/about/about.dart';
 import 'content/main_view/main_view.dart';
-import 'content/contact/contact.dart';
-import 'content/projects/projects.dart';
 import 'content/testimonial/testimonial.dart';
 
 class HomeContentDesktop extends StatefulWidget {
@@ -39,7 +38,6 @@ class _HomeContentDesktopState extends State<HomeContentDesktop> {
                 MainView(
                   pgctrl: widget.controller,
                 ),
-                const ProjectsView(),
                 TestimonialView(),
                 const AboutView(),
                 const ContactView(),

@@ -1,8 +1,8 @@
-import 'package:alderautomationsdotcom/globals.dart';
-import 'package:alderautomationsdotcom/widgets/centerted_view/centerted_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:responsive_builder/responsive_builder.dart';
+import '../../../../globals.dart';
+import '../../../../widgets/centerted_view/centerted_view.dart';
 
 class AboutView extends StatelessWidget {
   const AboutView({Key? key}) : super(key: key);
